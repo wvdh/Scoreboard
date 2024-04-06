@@ -1,4 +1,4 @@
-# Scrimba-Basketball-Scoreboard
+# Basketball Scoreboard
 
 Scrimba Module 3 Solo project - basketball scorecard
 <br>
