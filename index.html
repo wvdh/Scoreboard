@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="./styles/index.css">
+        <title>Basketball Scoreboard</title>
+    </head>
+    <body>
+        <h1 id="glow">SCOREBOARD</h1>
+        <div class="container">
+            <div>
+                <h3 id="home-title">HOME</h3>
+                <h2 class="score" id="home-score">0</h2>
+                <div>
+                    <button type="button" class="add-button" id="home-plus1-btn" onclick="incrementHomeScore1()">+1</button>
+                    <button type="button" class="add-button" id="home-plus2-btn" onclick="incrementHomeScore2()">+2</button>
+                    <button type="button" class="add-button" id="home-plus3-btn" onclick="incrementHomeScore3()">+3</button>
+                </div>    
+            </div>
+            <div>
+                <button type="button" class="reset-button" id="reset-btn" onclick="resetCounters()">Reset</button>
+            </div>     
+            <div>
+                <h3 id="guest-title">GUEST</h3>
+                <h2 class="score" id="guest-score">0</h2>
+                <div>
+                    <button type="button" class="add-button" id="guest-plus1-btn" onclick="incrementGuestScore1()">+1</button>
+                    <button type="button" class="add-button" id="guest-plus2-btn" onclick="incrementGuestScore2()">+2</button>
+                    <button type="button" class="add-button" id="guest-plus3-btn" onclick="incrementGuestScore3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
